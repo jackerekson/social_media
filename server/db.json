@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "address": "The weather today sure is great!",
+      "imageURL" : "none"
+    },
+    {
+      "id": 2,
+      "address": "Don't you just love vacations",
+      "imageURL" : "https://lh3.googleusercontent.com/proxy/UNmXMtUB4gOdF9XxhssKF33Cto4YFqsmnipzHcAJrfi6hkQwNwk-TNfKc115bd_F5SM_OlX4Zo40XcMxFMLFVCdo3__VQdZfhzceiD47xXivB-OIkUyjAVwIDK17aqM"
+    },
+    {
+      "id": 3,
+      "address": "Where on Earth do I find a good pizza joint?!",
+      "imageURL" : "none"
+    },
+  
+
+    {
+        "userId": 1,
+        "email": "bob.john@gmail.com",
+        "first_name": "Bob",
+        "last_name": "John",
+        "password": "passWord1",
+        "location": "USA"
+    },
+    {
+        "userId": 2,
+        "email": "john.doe@gmail.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "password": "passWord2",
+        "location": "Europe"
+    },{
+        "userId": 3,
+        "email": "karen.don@gmail.com",
+        "first_name": "Karen",
+        "last_name": "Don",
+        "password": "passWord3",
+        "location": "Canada"
+    }
+]

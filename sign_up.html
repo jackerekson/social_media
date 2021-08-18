@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrumpIt</title>
+    <link rel="stylesheet" href="styles.css">
+    <header class="list">
+        <h1>TrumpIt Sign In</h1>
+        <nav>
+            <ol>
+                <li class="crumb"><a href="./index.html">Home</a></li>
+                <li class="crumb"><a href="./sign_up.html">Sign Up / Sign In</a></li>
+                <li class="crumb"><a href="./account.html">Account</a></li>
+            </ol>
+        </nav>
+    </header>
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="login">
+            <h1 id="form__title">Login</h1>
+            <div class="form__message form__message--error">Incorrect username/password combination</div>
+            <div class="form__input-group">
+                <input class="form__inputs" autofocus placeholder="Username or email">
+                <div class="form__input-error-message">This is an error message</div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__inputs" autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p class="form__text">
+                <a class="form__link" id="linkCreateAccount">Dont have an account? Create account</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
